@@ -10,3 +10,6 @@ class Test_CF_Converter(unittest.TestCase):
     # Write a test that fails!
     def test_boiling_point(self):
         self.assertEqual(c_to_f(100), 212)
+
+    def test_freezing_point(self):
+        self.assertEqual(c_to_f(0), 32)
