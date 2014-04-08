@@ -2,7 +2,4 @@
 
 
 def c_to_f(centigrade):
-    if centigrade == 100:
-        return 212
-    else:
-        return 32
+    return (centigrade * 9.0) / 5.0 + 32
