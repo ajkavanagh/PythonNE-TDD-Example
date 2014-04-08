@@ -4,6 +4,7 @@ import unittest
 
 from cf_converter import c_to_f
 
+
 class Test_CF_Converter(unittest.TestCase):
 
     # Write a test that fails!
